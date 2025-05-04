@@ -1,0 +1,18 @@
+# Sensitive files
+service-account.json
+.env
+*.key
+*.secret
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
