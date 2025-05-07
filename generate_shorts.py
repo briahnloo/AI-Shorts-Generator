@@ -11,6 +11,8 @@ import tempfile
 import os
 from dotenv import load_dotenv
 
+### Generate shorts with Creatomate and Picsart
+
 # --- Load Environment Variables ---
 load_dotenv()  # Load variables from .env file
 
@@ -21,8 +23,6 @@ OPENAI_KEY = os.getenv("OPENAI_KEY", "")
 SHEET_ID = os.getenv("SHEET_ID", "")
 TEMPLATE_ID = os.getenv("TEMPLATE_ID", "")
 IMGBB_KEY = os.getenv("IMGBB_KEY", "")
-
-
 
 SCOPE       = [
     'https://www.googleapis.com/auth/spreadsheets',
